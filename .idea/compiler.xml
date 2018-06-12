@@ -7,16 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microserviceclond-eureka-7001" />
+        <module name="microserviceclond-eureka-7002" />
+        <module name="microserviceclond-eureka-7003" />
         <module name="microserviceclondconsumerdept80" />
+        <module name="microserviceclonde-ureka-7003" />
         <module name="microservicecloud-provider-dept-8001" />
+        <module name="microservicecloud-provider-dept-8002" />
+        <module name="microservicecloud-provider-dept-8003" />
         <module name="microservicecloudapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="microserviceclond-eureka-7001" target="1.8" />
+      <module name="microserviceclond-eureka-7002" target="1.8" />
+      <module name="microserviceclond-eureka-7003" target="1.8" />
       <module name="microserviceclondconsumerdept80" target="1.8" />
+      <module name="microserviceclonde-ureka-7003" target="1.8" />
       <module name="microservicecloud" target="1.8" />
       <module name="microservicecloud-provider-dept-8001" target="1.8" />
+      <module name="microservicecloud-provider-dept-8002" target="1.8" />
+      <module name="microservicecloud-provider-dept-8003" target="1.8" />
       <module name="microservicecloudapi" target="1.8" />
+      <module name="microseviceclond-eureka-7003" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
