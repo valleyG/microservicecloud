@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/microserviceclond-consumer-dept-feign/microserviceclond-consumer-dept-feign.iml" filepath="$PROJECT_DIR$/microserviceclond-consumer-dept-feign/microserviceclond-consumer-dept-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserviceclond-eureka-7001/microserviceclond-eureka-7001.iml" filepath="$PROJECT_DIR$/microserviceclond-eureka-7001/microserviceclond-eureka-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserviceclond-eureka-7002/microserviceclond-eureka-7002.iml" filepath="$PROJECT_DIR$/microserviceclond-eureka-7002/microserviceclond-eureka-7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserviceclond-eureka-7003/microserviceclond-eureka-7003.iml" filepath="$PROJECT_DIR$/microserviceclond-eureka-7003/microserviceclond-eureka-7003.iml" />
