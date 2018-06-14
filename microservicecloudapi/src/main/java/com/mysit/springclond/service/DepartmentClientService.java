@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
-
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")    //指定我们自定义接口对应的服务
+//指定我们自定义接口对应的服务,并且指定我们fallback处理
+@FeignClient(value = "MICROSERVICECLOUD-DEPT",fallbackFactory = DepartmentClientServiceFallbackFactory.class)
 public interface DepartmentClientService {
 
 

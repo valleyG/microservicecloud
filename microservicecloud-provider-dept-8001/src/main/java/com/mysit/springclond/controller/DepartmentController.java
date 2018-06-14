@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/department/")
 public class DepartmentController {
+
     @Autowired
     private DepartmentService departmentService;
 
@@ -25,7 +26,11 @@ public class DepartmentController {
 
     @RequestMapping(value = "get/{id}", method = RequestMethod.GET)
     public Department get(@PathVariable("id") Integer id) {
-        return this.departmentService.findDepartmentById(id);
+        Department department = departmentService.findDepartmentById(id);
+        if (department == null){
+            throw new RuntimeException("xxx");
+        }
+        return department;
     }
 
     @RequestMapping(value = "list", method = RequestMethod.GET)
@@ -46,4 +51,5 @@ public class DepartmentController {
 
         return this.discoveryClient;
     }
+
 }
