@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microserviceclond-consumer-dept-feign" />
+        <module name="microserviceclond-consumer-hystrix-dashboard" />
         <module name="microserviceclond-eureka-7001" />
         <module name="microserviceclond-eureka-7002" />
         <module name="microserviceclond-eureka-7003" />
@@ -22,6 +23,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microserviceclond-consumer-dept-feign" target="1.8" />
+      <module name="microserviceclond-consumer-hystrix-dashboard" target="1.8" />
       <module name="microserviceclond-eureka-7001" target="1.8" />
       <module name="microserviceclond-eureka-7002" target="1.8" />
       <module name="microserviceclond-eureka-7003" target="1.8" />
