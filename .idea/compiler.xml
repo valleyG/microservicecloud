@@ -12,6 +12,7 @@
         <module name="microserviceclond-eureka-7001" />
         <module name="microserviceclond-eureka-7002" />
         <module name="microserviceclond-eureka-7003" />
+        <module name="microserviceclond-zuul-gatetway-9527" />
         <module name="microserviceclondconsumerdept80" />
         <module name="microserviceclonde-ureka-7003" />
         <module name="microservicecloud-provider-dept-8001" />
@@ -27,6 +28,7 @@
       <module name="microserviceclond-eureka-7001" target="1.8" />
       <module name="microserviceclond-eureka-7002" target="1.8" />
       <module name="microserviceclond-eureka-7003" target="1.8" />
+      <module name="microserviceclond-zuul-gatetway-9527" target="1.8" />
       <module name="microserviceclondconsumerdept80" target="1.8" />
       <module name="microserviceclonde-ureka-7003" target="1.8" />
       <module name="microservicecloud" target="1.8" />

@@ -20,6 +20,7 @@
         <module>microserviceclond-consumer-dept-feign</module>
         <module>microservicecloud-provider-dept-hystrix-8001</module>
         <module>microserviceclond-consumer-hystrix-dashboard</module>
+        <module>microserviceclond-zuul-gatetway-9527</module>
     </modules>
 
     <properties>
